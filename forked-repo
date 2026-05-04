@@ -1,0 +1,5 @@
+curl -s https://api.github.com/repos/<8thefallen8>/mcino-Introduction-to-Git-and-GitHub | jq -r '.parent.clone_url'
+Add curl command to fetch GitHub repository clone URL
+
+@8thefallen8
+8thefallen8 authored 1 minute ago
